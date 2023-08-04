@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Basile LECOUTURIER
+	email = 50240788+bolex222@users.noreply.github.com
+# Please adapt and uncomment the following lines:
+#	name = Basile LECOUTURIER
+#	email = 50240788+bolex222@users.noreply.github.com
+[core]
+#	excludesfile = /Users/basilelecouturier/.gitignore
