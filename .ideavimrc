@@ -1,3 +1,4 @@
 set relativenumber
 set commentary
 set surround
+set visualbell
