@@ -1,4 +1,10 @@
-set relativenumber
+set number relativenumber
 set commentary
 set surround
 set visualbell
+set html_autoclosetag
+set incsearch
+set scrolloff=5
+set sidescrolloff=5
+set ignorecase
+
