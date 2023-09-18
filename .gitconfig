@@ -7,3 +7,5 @@
 #	email = 50240788+bolex222@users.noreply.github.com
 [core]
 	excludesfile = ~/.gitignore
+[alias]
+	ac = commit -am
