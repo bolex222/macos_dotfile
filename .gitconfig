@@ -9,3 +9,4 @@
 	excludesfile = ~/.gitignore
 [alias]
 	ac = commit -am
+	ca = commit -am
