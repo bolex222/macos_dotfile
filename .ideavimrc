@@ -1,3 +1,5 @@
+let mapleader=" "
+
 set number relativenumber
 set commentary
 set surround
@@ -7,4 +9,12 @@ set incsearch
 set scrolloff=5
 set sidescrolloff=5
 set ignorecase
+set hlsearch
 
+""" remap 
+
+" paste/replace without yanking
+map <leader>p "_dP
+
+" delete without yanking
+map <leader>d "_d
