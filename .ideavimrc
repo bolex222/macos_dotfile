@@ -10,11 +10,20 @@ set scrolloff=5
 set sidescrolloff=5
 set ignorecase
 set hlsearch
+set highlightedyank
+set sneak
+
 
 """ remap 
 
 " paste/replace without yanking
 map <leader>p "_dP
 
-" delete without yanking
 map <leader>d "_d
+map <leader>r <Action>(RenameElement)
+map <leader>l <Action>(ReformatCode)
+
+set NERDTree
+
+""" jet brain actions
+
