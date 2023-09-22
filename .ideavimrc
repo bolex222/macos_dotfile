@@ -18,12 +18,33 @@ set sneak
 
 " paste/replace without yanking
 map <leader>p "_dP
-
 map <leader>d "_d
-map <leader>r <Action>(RenameElement)
-map <leader>l <Action>(ReformatCode)
+
+""" keep cursor in the middle while vertical moving
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap g# g#zz
+
+vmap <Leader>y "+y
+nmap <Leader>P "+P
+
+""" move selected lines
+vnoremap <C-j> :m'>+<CR>gv=gv
+vnoremap <C-k> :m-2<CR>gv=gv
 
 set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+
 
 """ jet brain actions
 
+map <leader>r <Action>(RenameElement)
+map <leader>l <Action>(ReformatCode)
+map <leader>i <Action>(QuickJavaDoc)
+map <leader>e <Action>(ShowErrorDescription)
