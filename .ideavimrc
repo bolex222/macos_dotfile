@@ -30,8 +30,11 @@ nnoremap # #zz
 nnoremap g* g*zz
 nnoremap g# g#zz
 
-vmap <Leader>y "+y
-nmap <Leader>P "+P
+
+nnoremap <leader>w <C-w>
+
+map <leader>y "+y
+""" map <leader>P "+P
 
 """ move selected lines
 vnoremap <C-j> :m'>+<CR>gv=gv
@@ -48,3 +51,6 @@ map <leader>r <Action>(RenameElement)
 map <leader>l <Action>(ReformatCode)
 map <leader>i <Action>(QuickJavaDoc)
 map <leader>e <Action>(ShowErrorDescription)
+map <leader>ff <Action>(GotoFile)
+map <leader>pv <Action>(SelectInProjectView)
+""" map <leader>pv <Action>(ProjectViewEditSource)
