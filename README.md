@@ -9,5 +9,4 @@ ln -s ~/.dotfiles/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/.hyper.js ~/.hyper.js
 ln -s ~/.dotfiles/.ideavimrc ~/.ideavimrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/nvim ~/.config/nvim
 ```
