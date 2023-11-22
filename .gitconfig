@@ -10,3 +10,5 @@
 [alias]
 	ac = commit -am
 	ca = commit -am
+[http]
+	cookiefile = /Users/basile/.gitcookies

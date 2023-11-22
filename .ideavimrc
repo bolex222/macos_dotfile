@@ -12,6 +12,7 @@ set ignorecase
 set hlsearch
 set highlightedyank
 set sneak
+set multicursor
 
 
 """ remap 
@@ -53,4 +54,6 @@ map <leader>i <Action>(QuickJavaDoc)
 map <leader>e <Action>(ShowErrorDescription)
 map <leader>ff <Action>(GotoFile)
 map <leader>pv <Action>(SelectInProjectView)
+map gn <Action>(GotoNextError)
+map gp <Action>(GotoPreviousError)
 """ map <leader>pv <Action>(ProjectViewEditSource)
