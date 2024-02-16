@@ -138,3 +138,6 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+export GITHUB_TOKEN=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
